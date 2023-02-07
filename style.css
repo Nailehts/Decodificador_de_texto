@@ -1,0 +1,132 @@
+body {
+    background: #E5E5E5;
+}
+
+#input-padrao {
+    background: #E5E5E5;
+    position: absolute;
+    display: inline;
+    left: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    font-style: 'normal';
+    color: #0A3871;
+    border: none;
+}
+
+.boton-copiar {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    font-style: 'normal';
+    color: #0A3871;
+    border-radius: 24px;
+    border: 1px solid;
+    cursor: pointer;
+    width: 220px;
+    height: 60px;
+    margin-left: 880px;
+    margin-top: 420px;
+    position: absolute;
+}
+
+#dibujo {
+    margin-left: 800px;
+    position: absolute;
+    margin-top: 20px;
+}
+
+#text-area {
+    background:#FFFFFF ;
+    border: none;
+    margin-top: 10px;
+    margin-left: 800px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    line-height: 150%;
+    border-radius: 5%;
+    color: #0A3871;
+    position: absolute;
+    width: 350px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    display: flex;
+    opacity: 0.6;
+}
+
+#msg-no-encontrada {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    margin-left: 825px;
+    margin-top: 350px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: justify;
+}
+
+#cripto-descripto {
+    position:absolute;
+    width: 400px;
+    height: 400px;
+    margin-left: 780px;
+    margin-top: 380px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
+    align-self: stretch;
+}
+
+::placeholder {
+    color: #0A3871;
+}
+
+footer {
+    padding: 24% 0 0 10%;
+}
+
+.exclamacion {
+    float: left;
+    display: block;
+    padding: 0 0 0 0px;
+    margin-right: 10px;
+}
+
+main {
+    position: absolute; 
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+ 
+
+.criptografar {
+    display: inline;
+    background: #0A3871;
+    margin-right: 10px;
+    width: 280px;
+    height: 60px;
+    font-size: 18px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    float: bottom;
+    cursor: pointer;
+
+}
+
+.descriptografar {
+    display: inline;
+    background: #D8DFE8;
+    width: 280px;
+    height: 60px;
+    font-size: 18px;
+    border-radius: 15px;
+    border: none;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+}
+
+.icons {
+    margin-top: 10px;
+}
